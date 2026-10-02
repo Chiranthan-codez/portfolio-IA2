@@ -103,13 +103,7 @@ h1, h2, h3, h4 {
     height: 180px;
     border-radius: 50%;
     padding: 4px;
-    background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-    animation: spin 8s linear infinite;
-}
-
-@keyframes spin {
-    0% { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(360deg); }
+    background: var(--glass-border);
 }
 
 .profile-image {
