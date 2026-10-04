@@ -3,105 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chiranthan Padmashali - Software Engineer Portfolio">
-    <title>Chiranthan Padmashali | Portfolio</title>
+    <meta name="description" content="Chiranthan Padmashali - IT Student Portfolio">
+    <title>Chiranthan Padmashali | Personal Profile</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="background-animation"></div>
-    <div class="container">
-        <header class="glass-card profile-section">
-            <div class="profile-image-container">
-                <img src="DP.jpeg" alt="Chiranthan Padmashali" class="profile-image">
+    <nav class="navbar">
+        <div class="logo">
+            CHIRANTHAN PADMASHALI
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education & Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="small-title">
+                WELCOME TO MY PROFILE
+            </p>
+            <h1>
+                Hi, I'm <span class="highlight">Chiranthan.</span>
+            </h1>
+            <h2>
+                IT Student
+            </h2>
+            <p>
+                I am a passionate IT student from Manipal Institute of Technology focused on building systems and writting pro  grams. I enjoy tackling challenges and writing clean, scalable code to drive real-world impact.
+            </p>
+            <a href="#about" class="button">
+                Explore My Profile
+            </a>
+        </div>
+        <div class="hero-image">
+            <img src="DP.jpeg" alt="Profile photograph of Chiranthan">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">
+            About Me
+        </h2>
+        <div class="about-grid">
+            <div class="card">
+                <h3>
+                    Engineering & Development
+                </h3>
+                <p>
+                    I specialize in building event-driven microservices, distributed architectures, and scalable backend solutions. I enjoy working with languages like Java, Python, and C++, and leveraging frameworks like Spring Boot and Node.js.
+                </p>
+                <p>
+                    My goal is to constantly push boundaries in backend development, focusing on multithreading, high throughput, and system reliability to create meaningful technology-driven solutions.
+                </p>
             </div>
-            <div class="profile-info">
-                <h1 class="gradient-text">Chiranthan Padmashali</h1>
-                <h2 class="subtitle">Btech IT Student</h2>
-                <p class="intro">I am a btech student who is passionate about building robust, high-performance systems.</p>
-                <div class="contact-links">
-                    <a href="mailto:chizerme@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/chiranthan-padmashali-/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Chiranthan-codez" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <div class="card">
+                <h3>
+                    Hobbies & Interests
+                </h3>
+                <p>
+                    Outside of IT, I have a strong interest in System Design, Cloud Architecture, and exploring Open Source projects. 
+                </p>
+                <p>
+                    I am also fascinated by Robotics and love diving into the intersections of hardware and scalable cloud environments to see how the physical and digital worlds integrate.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section education-section">
+        <h2 class="section-title">
+            Education & Skills
+        </h2>
+        <div class="info-grid">
+            <div class="card">
+                <h3>
+                    Education & Experience
+                </h3>
+                <h4>
+                    Manipal Institute of Technology
+                </h4>
+                <p class="highlight-text">
+                    B.Tech — Information Technology
+                </p>
+                <p>
+                    Jun 2024 – June 2028
+                </p>
+                <hr class="divider">
+                <h4>
+                    AWS Cloud Intern — IStudio
+                </h4>
+                <p class="highlight-text">
+                    Feb 2026
+                </p>
+                <p>
+                    Configured ROS2 on Ubuntu within AWS EC2 for remote robotics simulation. Deployed full-stack applications on AWS and developed scalable deployment workflows using Elastic Beanstalk.
+                </p>
+            </div>
+            <div class="card">
+                <h3>
+                    Technical Skills
+                </h3>
+                <div class="skills">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>C++ (C++17)</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                    <span>Spring Boot</span>
+                    <span>Node.js</span>
+                    <span>React</span>
+                    <span>AWS</span>
+                    <span>Docker</span>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <main>
-            <section class="glass-card">
-                <h3><i class="fas fa-user"></i> About Me</h3>
-                <p>I am a passionate software engineer focused on building robust, high-performance systems. My expertise lies in backend development, distributed systems, and cloud infrastructure. I enjoy tackling complex architectural challenges and writing clean, scalable code to drive real-world impact.</p>
-            </section>
+    <section id="projects" class="section">
+        <h2 class="section-title">
+            Projects
+        </h2>
+        <div class="info-grid">
+            <div class="card">
+                <h3>
+                    TradePulse Analytics
+                </h3>
+                <p class="highlight-text">Node.js, PostgreSQL, Redis Streams, Docker</p>
+                <p>
+                    Built an event-driven trading behavior analytics platform decoupling trade ingestion from background processing. Achieved sub-10ms p95 write latency.
+                </p>
+            </div>
+            <div class="card">
+                <h3>
+                    Event-Driven Workflow System
+                </h3>
+                <p class="highlight-text">Java 21, Spring Boot 3, Apache Kafka, PostgreSQL</p>
+                <p>
+                    Developed a microservices platform using a database-per-service architecture for processing workflows with asynchronous service communication.
+                </p>
+            </div>
+            <div class="card">
+                <h3>
+                    Distributed Key-Value Store
+                </h3>
+                <p class="highlight-text">Go 1.25, Raft Consensus, gRPC, BoltDB</p>
+                <p>
+                    Built a strongly consistent distributed key-value store in Go using the Raft consensus algorithm, enabling automatic leader election and replicated state machines.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title">
+            Contact
+        </h2>
+        <div class="contact-card">
+            <p>Udupi, Karnataka, India</p>
+            <p>+91 6363772045</p>
+            <p>chizerme@gmail.com</p>
+            <div class="contact-links">
+                <a href="mailto:chizerme@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Chiranthan-codez" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
 
-            <section class="glass-card">
-                <h3><i class="fas fa-graduation-cap"></i> Education & Experience</h3>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">Feb 2026</div>
-                        <div class="timeline-content">
-                            <h4>AWS Cloud Intern</h4>
-                            <p class="organization">IStudio</p>
-                            <p>Configured ROS2 on Ubuntu within AWS EC2 for remote robotics simulation. Deployed full-stack applications on AWS, managing security groups, and developed scalable deployment workflows using Elastic Beanstalk.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">Jun 2024 - Jun 2028</div>
-                        <div class="timeline-content">
-                            <h4>B.Tech, Information Technology</h4>
-                            <p class="organization">Manipal Institute of Technology, Manipal</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="glass-card">
-                <h3><i class="fas fa-code"></i> Skills</h3>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4>Languages</h4>
-                        <div class="tags">
-                            <span class="tag">Java</span>
-                            <span class="tag">Python</span>
-                            <span class="tag">C++</span>
-                            
-                            <span class="tag">SQL</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Frameworks</h4>
-                        <div class="tags">
-                          
-                            <span class="tag">Django</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">React</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Distributed & Cloud</h4>
-                        <div class="tags">
-                            <span class="tag">AWS</span>
-                            <span class="tag">Docker</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="glass-card">
-                <h3><i class="fas fa-heart"></i> Interests & Hobbies</h3>
-                <div class="tags hobbies">
-                    <span class="tag hobby"><i class="fas fa-cogs"></i> System Design</span>
-                    <span class="tag hobby"><i class="fas fa-server"></i> Cloud Architecture</span>
-                    <span class="tag hobby"><i class="fas fa-code-branch"></i> Open Source</span>
-                </div>
-            </section>
-        </main>
-        
-        <footer>
-            <p>&copy; 2026 Chiranthan Padmashali. Built with HTML and CSS</p>
-        </footer>
-    </div>
+    <footer>
+        <p>&copy; 2026 Chiranthan Padmashali. Built with HTML and CSS.</p>
+    </footer>
 </body>
 </html>
