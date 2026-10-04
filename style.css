@@ -321,7 +321,25 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .nav-links {
+    .logo {
         display: none;
+    }
+    
+    .navbar {
+        justify-content: center;
+        padding: 1rem 5%;
+    }
+    
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .nav-links a {
+        margin-left: 0;
+        font-size: 0.85rem;
     }
 }
