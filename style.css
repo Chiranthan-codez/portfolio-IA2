@@ -322,10 +322,13 @@ footer {
     }
     
     .logo {
-        display: none;
+        display: block;
+        margin-bottom: 1rem;
+        text-align: center;
     }
     
     .navbar {
+        flex-direction: column;
         justify-content: center;
         padding: 1rem 5%;
     }
